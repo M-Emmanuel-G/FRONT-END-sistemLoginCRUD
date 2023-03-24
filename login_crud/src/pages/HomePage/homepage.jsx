@@ -72,7 +72,7 @@ export const Homepage = ()=>{
             <div>
                 <h1>Profile:</h1>
                 <span>Nome: <span>{data.name}</span></span>
-                <span>Email: <span>{data.name}</span></span>
+                <span>Email: <span>{data.email}</span></span>
                 <span>Senha: ****** </span>
                 <button onClick={()=>{updateAccount()}}>Alterar senha</button>
                 <form className="newPass" >
